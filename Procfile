@@ -1,1 +1,1 @@
-web: gunicorn passedonwisdom.wsgi — log-file -
+web: gunicorn birthday.wsgi — log-file -
