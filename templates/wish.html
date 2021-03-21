@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wish</title>
 </head>
 <body style="background-color:#A11E1E; color:white; font-size:30px;" onload="typeWriter(); ">
     <p id="wish" style="display: none;">
@@ -25,7 +25,10 @@
         Happpppy birthdayy once again and abhiiii tuu ye sab corona khatam hote hi tu meree ghar aara hai rehnee
         Chal ab bohot taareef ho gyi....website band kar and sone jaaaa...
     </p>
-<b><p id="demo" style="margin:100px;"></p></b>
+    
+<b><p id="demo" style="margin:80px;">
+  <a href='/photos'></p></b>
+    <center><button class="button1" style='height:80px;width:150px;background:violet;color:white;border-radius:20px;font-size:35px;font-weight:700'>CLICK</button></a></center>
 <script>
   
 var i = 0;
@@ -37,7 +40,9 @@ function typeWriter() {
     i++;
     setTimeout(typeWriter, speed);
   }
+  document.getElementsByClassName("button1").display = block;
 }
+
 </script>
 </body>
 </html>

@@ -9,7 +9,7 @@
         'I wish you',
         'A very very happy birthday and prosperous year ahead..',
         '<span class="fa fa-4x fa-birthday-cake"></span><hr><h2>happy birthday bhaii</h2>',
-        "<a href='/wish'><button style='height:80px;width:150px;background:violet;color:white;border-radius:20px;font-size:35px;'>CLICK</button></a>"
+        "<a href='/wish'><button style='height:80px;width:150px;background:violet;color:white;border-radius:20px;font-size:35px;font-weight:700;'>CLICK</button></a>"
       ],
       animate = function(it, direction) {
         var c = Math.floor((Math.random() * colors.length));

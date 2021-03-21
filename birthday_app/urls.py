@@ -5,6 +5,7 @@ from django.conf import settings
 urlpatterns = [
     path('', views.index,name="index"),
     path('wish', views.wish,name="wish"),
+    path('photos', views.photos,name="photos"),
 ]
 
 

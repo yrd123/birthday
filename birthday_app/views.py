@@ -11,3 +11,6 @@ def index(request):
 
 def wish(request):
     return render(request,'wish.html')
+
+def photos(request):
+    return render(request,'photos.html')
